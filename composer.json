@@ -1,0 +1,65 @@
+{
+    "name": "tyhpdef/filament-widgets-impl",
+    "description": "Implementation package for tyhpdef/filament-widgets. Require tyhpdef/filament-widgets, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "5.8.2.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": ">=8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/filament-support": "@dev",
+                "tyhpdef/filament-schemas": "@dev",
+                "tyhpdef/filament-tables": "@dev",
+                "tyhpdef/nette-php-generator": "@dev",
+                "tyhpdef/filament-actions": "@dev",
+                "tyhpdef/filament-forms": "@dev",
+                "tyhpdef/staudenmeir-belongs-to-through": "@dev",
+                "tyhpdef/league-csv": "@dev",
+                "tyhpdef/openspout-openspout": "@dev",
+                "tyhpdef/filament-notifications": "@dev",
+                "tyhpdef/danharrin-livewire-rate-limiting": "@dev",
+                "tyhpdef/filament-infolists": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/filament-widgets"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "filament/widgets": "5.8.2"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/filament-support": "@dev",
+        "tyhpdef/filament-schemas": "@dev",
+        "tyhpdef/filament-tables": "@dev",
+        "tyhpdef/nette-php-generator": "@dev",
+        "tyhpdef/filament-actions": "@dev",
+        "tyhpdef/filament-forms": "@dev",
+        "tyhpdef/staudenmeir-belongs-to-through": "@dev",
+        "tyhpdef/league-csv": "@dev",
+        "tyhpdef/openspout-openspout": "@dev",
+        "tyhpdef/filament-notifications": "@dev",
+        "tyhpdef/danharrin-livewire-rate-limiting": "@dev",
+        "tyhpdef/filament-infolists": "@dev"
+    }
+}
